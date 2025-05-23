@@ -32,6 +32,7 @@ Crear una base de datos en PostgreSQL, por ejemplo, crm_tech360.
 Actualizar el archivo application.properties con las credenciales y URL de conexión adecuadas.
 
 Construir el proyecto:
+
 ./mvnw clean install
 Ejecución de la Aplicación
 Iniciar la aplicación con el siguiente comando:
@@ -40,11 +41,11 @@ Iniciar la aplicación con el siguiente comando:
 La API estará disponible en: http://localhost:8080/
 
 Documentación de la API
+
 Swagger proporciona una interfaz interactiva para explorar y probar los endpoints de la API. Accede a la documentación en:
-
-
 http://localhost:8080/swagger-ui.html
-🗂️ Estructura del Proyecto
+
+Estructura del Proyecto
 src/main/java: Contiene el código fuente organizado en paquetes:
 
 controller: Controladores REST que manejan las solicitudes HTTP.
